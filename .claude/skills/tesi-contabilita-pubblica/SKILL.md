@@ -29,6 +29,7 @@ Il lavoro procede per fasi. Non anticipare una fase se la precedente non è chiu
 | F4 — Indice ragionato | indice con carico argomentativo per paragrafo | `output/F4-indice.md` |
 | F5 — Stesura | capitoli, uno per file | `output/capitoli/` |
 | F6 — Revisione | controllo note, coerenza, bibliografia | `output/F6-revisione.md` |
+| F7 — Composizione | documento consegnabile (LaTeX o Word) | `output/tesi-latex/` |
 
 ### F0 — Intake del materiale
 
@@ -40,6 +41,8 @@ Il lavoro procede per fasi. Non anticipare una fase se la precedente non è chiu
 ### F1 — Schede di lettura
 
 Una scheda per documento, con il template `templates/scheda-fonte.md`. La scheda è il solo tramite consentito fra materiale e tesi: nulla entra in tesi che non sia passato per una scheda. Ogni scheda registra la *citazione esatta* (con numero di pagina o paragrafo) dei passaggi che si intende utilizzare.
+
+La schedatura si parallelizza: un agente per gruppo omogeneo di documenti (norme, giurisprudenza costituzionale, deliberazioni della Corte dei conti, dottrina, atti parlamentari), secondo l'ondata A descritta in `write-academic-report/references/adattamento-tesi-giuridica.md` §2. Gli agenti di questa fase producono schede, non prosa da tesi.
 
 ### F2 — Ricognizione per punti
 
@@ -57,9 +60,30 @@ Ogni paragrafo dell'indice porta con sé: la tesi che sostiene, le fonti su cui 
 
 Un file per capitolo. Prima del testo, riportare in testa al file l'estratto dell'indice ragionato relativo a quel capitolo, così da controllare gli scostamenti. Le note seguono `references/metodo-citazione.md`.
 
+Anche la stesura si parallelizza, ma non per intero: i capitoli I–III sono indipendenti, IV e V seguono, VI (la presa di posizione) attende IV e V, VII attende VI; introduzione e conclusioni si scrivono per ultime. Lo schema delle dipendenze e ciò che va consegnato a ciascun agente stanno in `write-academic-report/references/adattamento-tesi-giuridica.md` §2, ondata C.
+
 ### F6 — Revisione
 
 Controlli obbligatori, nell'ordine: (1) ogni nota rinvia a una fonte esistente nel registro; (2) nessun `[FONTE DA REPERIRE]` o `[DA VERIFICARE]` residuo non segnalato all'utente; (3) coerenza fra tesi dichiarata nell'introduzione e conclusioni; (4) bibliografia completa e ordinata; (5) passaggio finale con la skill `humanizer` sui capitoli, per eliminare gli stilemi da testo generato.
+
+I controlli (1), (2) e in parte (4) sono automatizzati:
+
+```bash
+python3 .claude/skills/write-academic-report/scripts/audit_note_tesi.py
+```
+
+Lo script confronta le note dei capitoli con `output/registro-fonti.md`, segnala note orfane, schede senza riga nel registro, fonti lette e mai usate, marcatori di lavorazione rimasti nel testo. Va eseguito fino a esito pulito; con `--consegna` i marcatori residui diventano bloccanti. L'esito dello script non sostituisce i controlli (3) e (5), che restano di lettura.
+
+### F7 — Composizione del documento
+
+Si apre solo dopo che F6 è chiusa. Produce il file da consegnare: copia di
+`write-academic-report/templates/tesi-giuridica-italiana/` in `output/tesi-latex/`, travaso dei capitoli, note trasformate
+in `\footnote{}`, rinvii interni in `\label`/`\ref`, `cross_ref_audit.py`, compilazione. Il procedimento completo è in
+`write-academic-report/references/adattamento-tesi-giuridica.md` §3. Se la scuola accetta il formato Word, si esporta con
+la skill `docx` e il LaTeX non serve.
+
+Dopo F7 le correzioni si fanno sul documento composto, non più sui file Markdown: tenere due versioni allineate a mano è
+il modo più rapido per consegnare un testo incoerente.
 
 ## 3. Il nucleo argomentativo del tema
 
@@ -78,6 +102,10 @@ Sul versante *de iure condendo*, il perno è che si tratta di **legge delega**: 
 - `references/de-iure-condendo.md` — metodo per formulare le proposte su legge delega
 - `references/metodo-citazione.md` — stile citazionale giuridico italiano
 - `references/struttura-tesi.md` — architettura dei capitoli e alternative
+
+## 4-bis. Rapporto con la skill `write-academic-report`
+
+`write-academic-report` è importata da un progetto di terzi e serve a due cose sole: parallelizzare la lavorazione su più agenti e comporre il documento finale. Non detta il metodo, non detta la struttura dei capitoli, non detta lo stile: su questi punti prevale la presente skill, e su entrambe prevalgono le indicazioni del relatore. Prima di usarla leggere `write-academic-report/references/adattamento-tesi-giuridica.md`, che elenca quali sue parti vanno scartate (analisi di codice, dati sperimentali, figure, modelli di capitolo STEM, template inglese) e avverte che `citation_checker.py` è cieco sulle fonti giuridiche italiane: un esito «non trovato» su una deliberazione della Corte dei conti o su un articolo di rivista italiana non è indizio di invenzione.
 - `templates/scheda-fonte.md`, `templates/traccia-orientativa.md`, `templates/indice-ragionato.md`
 
 ## 5. Avvertenza sulla conoscenza pregressa

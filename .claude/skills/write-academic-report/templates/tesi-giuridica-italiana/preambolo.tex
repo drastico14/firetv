@@ -1,0 +1,60 @@
+% ---------------------------------------------------------------------
+% Preambolo — tesi giuridica italiana
+% ---------------------------------------------------------------------
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{mathptmx}                 % Times: font richiesto dalla gran parte dei regolamenti
+
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3.5cm,right=3cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing                        % interlinea 1,5
+
+\usepackage{csquotes}
+\MakeOuterQuote{"}
+\usepackage{emptypage}
+\usepackage{titlesec}
+\usepackage[bottom,hang,flushmargin]{footmisc}
+\usepackage[hidelinks]{hyperref}
+
+% --- Numerazione dei capitoli in numeri romani (Cap. I, II, III...) ---
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+
+\titleformat{\chapter}[display]
+  {\normalfont\large\bfseries\filcenter}
+  {\MakeUppercase{\chaptertitlename}~\thechapter}{1em}{\Large}
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+% --- Note a piè di pagina: numerazione continua in tutta la tesi ------
+% In una tesi giuridica la numerazione ricomincia raramente per capitolo.
+% Per farla ricominciare, commentare la riga seguente.
+\counterwithout{footnote}{chapter}
+\renewcommand{\footnotesize}{\small}
+\setlength{\footnotesep}{0.9em}
+
+% --- Citazioni testuali lunghe: corpo minore, senza virgolette -------
+% Uso: \begin{citazione} ... \end{citazione}
+\newenvironment{citazione}
+  {\begin{quote}\small\setstretch{1.15}}
+  {\end{quote}}
+
+% --- Comandi di servizio ---------------------------------------------
+% Marcatori di lavorazione: devono essere ZERO nella versione consegnata.
+% Verifica:  grep -n "DAVERIFICARE\|FONTEDAREPERIRE" -r .
+\newcommand{\fontedareperire}[1]{\textbf{[FONTE DA REPERIRE: #1]}}
+\newcommand{\daverificare}[1]{\textbf{[DA VERIFICARE: #1]}}
+\newcommand{\ipotesi}[1]{\textbf{[IPOTESI RICOSTRUTTIVA: #1]}}
+
+% Rinvii interni nella forma giuridica: \supra{sez:cap2:requisiti}
+% NOTA: cross_ref_audit.py segnala qui un falso positivo, "\ref{#1} undefined",
+% perche' legge il corpo della macro come se fosse un rinvio reale. Va ignorato:
+% e' l'unica riscontro atteso su questo template.
+\newcommand{\supra}[1]{v.~\emph{supra}, §~\ref{#1}}
+\newcommand{\infraref}[1]{v.~\emph{infra}, §~\ref{#1}}
+
+% --- Numerazione delle pagine ----------------------------------------
+% La classe report non ha \frontmatter: in main.tex si passa a mano da
+% numerazione romana (indice) ad araba (corpo della tesi).

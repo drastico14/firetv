@@ -1,0 +1,39 @@
+% =====================================================================
+%  Tesi di specializzazione in diritto amministrativo e scienza
+%  dell'amministrazione — materia: contabilità pubblica
+%
+%  Compilazione:  tectonic main.tex
+%             o:  latexmk -pdf main.tex
+%
+%  Il file si compila con pdflatex: non usa pacchetti che richiedano
+%  XeLaTeX o LuaLaTeX. Non usa BibTeX: la bibliografia giuridica è
+%  composta a mano in bibliografia.tex, per sezioni.
+% =====================================================================
+\documentclass[12pt,a4paper,oneside]{report}
+
+\input{preambolo}
+
+\begin{document}
+
+\input{frontespizio}
+
+\pagenumbering{roman}
+\tableofcontents
+\cleardoublepage
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+\input{capitoli/introduzione}
+\input{capitoli/cap1_inquadramento}
+\input{capitoli/cap2_assetto_anteriore}
+\input{capitoli/cap3_legge_2026}
+\input{capitoli/cap4_procedimento}
+\input{capitoli/cap5_effetti_responsabilita}
+\input{capitoli/cap6_unitarieta}
+\input{capitoli/cap7_de_iure_condendo}
+\input{capitoli/conclusioni}
+
+\input{bibliografia}
+
+\end{document}
