@@ -12,5 +12,8 @@ Suggerimento di ordinamento, utile ma non obbligatorio:
 - `05-istituzionali/` — relazioni della Corte dei conti, circolari, note ANCI/RGS
 - `06-indicazioni-relatore/` — linee guida, stile citazionale richiesto, vincoli di lunghezza e scadenze
 
+Il contenuto di questa cartella è escluso dal versionamento (`.gitignore`): i documenti restano sul disco
+locale e non finiscono su GitHub. Tracciato è solo questo file.
+
 Se un PDF è la scansione di un cartaceo senza testo selezionabile, segnalalo: va sottoposto a OCR prima della
 lettura, e in nessun caso il contenuto va ricostruito per congettura.

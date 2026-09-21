@@ -1,0 +1,24 @@
+# --- Materiale di lavoro -------------------------------------------------
+# Il materiale NON entra nel repository: comprende dottrina coperta da
+# diritto d'autore e documenti che possono essere riservati, e questo
+# repository è pubblico. Resta sul disco locale.
+materiali/*
+!materiali/README.md
+
+# --- Prodotti della compilazione LaTeX -----------------------------------
+output/tesi-latex/*.aux
+output/tesi-latex/*.log
+output/tesi-latex/*.out
+output/tesi-latex/*.toc
+output/tesi-latex/*.lof
+output/tesi-latex/*.lot
+output/tesi-latex/*.bbl
+output/tesi-latex/*.blg
+output/tesi-latex/*.fls
+output/tesi-latex/*.fdb_latexmk
+output/tesi-latex/*.synctex.gz
+
+# --- Varie ---------------------------------------------------------------
+__pycache__/
+*.pyc
+.DS_Store
