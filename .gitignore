@@ -1,0 +1,7 @@
+# Il repository è pubblico: tesi, fonti raccolte e output di lavorazione non vanno versionati.
+materiali/*
+!materiali/README.md
+output/*
+!output/.gitkeep
+*.docx
+*.pdf

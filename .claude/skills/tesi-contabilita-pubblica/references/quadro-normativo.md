@@ -14,7 +14,13 @@ sull'articolato.
 | Art. 13 r.d. 12 luglio 1934, n. 1214 (t.u. Corte dei conti) | parere alla richiesta del Governo nelle materie di competenza: radice storica della funzione consultiva | sì |
 | L. 14 gennaio 1994, n. 20 | funzioni di controllo, controllo preventivo di legittimità e controllo sulla gestione; corpo normativo su cui la l. 1/2026 interviene | sì |
 | Art. 3, comma 1, lett. b), l. 20/1994 ⚠ | perimetro degli atti soggetti a controllo preventivo di legittimità (rilevante per l'esclusione prevista dalla riforma) | sì |
-| Art. 7, comma 8, l. 5 giugno 2003, n. 131 (legge La Loggia) | pareri delle Sezioni regionali di controllo in materia di contabilità pubblica su richiesta di Regioni, Province, Comuni, Città metropolitane, di regola tramite Consiglio regionale / CAL | sì |
+| Art. 7, comma 8, l. 5 giugno 2003, n. 131 (legge La Loggia) | pareri delle Sezioni regionali di controllo in materia di contabilità pubblica su richiesta di Regioni, Province, Comuni, Città metropolitane, di regola tramite CAL; *Grundnorm* della funzione consultiva secondo le Sezioni riunite | sì |
+| Art. 10-bis d.l. 24 giugno 2016, n. 113 | accesso diretto alla Sezione delle autonomie; rimasto pressoché inutilizzato | sì |
+| Artt. 69, comma 2, e 95, comma 4, d.lgs. 174/2016 | archiviazione per assenza di colpa grave e valutazione dei pareri in giudizio, «nel rispetto dei presupposti generali per il rilascio» | sì |
+| Art. 5 d.lgs. 19 agosto 2016, n. 175, come novellato dall'art. 11 l. 118/2022 | parere sull'atto deliberativo di costituzione o acquisizione di partecipazioni: qualificato dalle Sezioni riunite come controllo e non come parere | sì |
+| Art. 46 l. 23 dicembre 2021, n. 238 | prima versione del modello poi ripreso nel 2026 (fattispecie PNRR, soglia di un milione, esclusione della colpa grave), rimasto inapplicato; conservava però la clausola dei presupposti generali per il rilascio | sì |
+| Art. 1, comma 1, l. 20/1994, come modificato nel 2026 | clausola generale: non è colpa grave la violazione determinata dal riferimento a indirizzi giurisprudenziali prevalenti o a pareri delle autorità competenti | sì |
+| Art. 215 d.lgs. 31 marzo 2023, n. 36 | esclusione della responsabilità per osservanza delle determinazioni del Collegio consultivo tecnico | sì |
 | Art. 17, comma 31, d.l. 1 luglio 2009, n. 78 (conv. l. 102/2009) | questioni di massima di particolare rilevanza: intervento delle Sezioni riunite in sede di controllo su deferimento del Presidente | sì |
 | Delib. Sezioni riunite n. 54/2010/CONTR ⚠ e prassi successiva | requisiti di ammissibilità elaborati in via pretoria: legittimazione soggettiva; materia di contabilità pubblica; generalità e astrattezza del quesito; non interferenza con funzione giurisdizionale e requirente; assenza di attualità di gestione | sì |
 | D.lgs. 26 agosto 2016, n. 174 (codice di giustizia contabile) | funzione giurisdizionale e requirente: termine di confronto per il limite di non interferenza | sì |
@@ -31,21 +37,49 @@ Dati identificativi (da riscontrare sul testo in GU):
 
 ### 2.1 Art. 2 — attività consultiva (disposizione immediatamente precettiva)
 
-Elementi da verificare uno per uno sull'articolato, perché ciascuno è un nodo della tesi:
+Elementi accertati sul testo e sul diritto vivente di prima applicazione. Restano da riscontrare sull'articolato
+le formulazioni letterali, perché su di esse il lavoro argomenta.
 
-1. **Ampliamento oggettivo**: i pareri non riguardano più soltanto schemi di atti normativi e questioni di massima in materia di contabilità pubblica, ma «anche» questioni interpretative giuridiche **relative a fattispecie concrete** ⚠.
-2. **Perimetro qualificato**: le fattispecie concrete sarebbero circoscritte all'attuazione di PNRR e PNC, con soglia di valore aggregato non inferiore a 1 milione di euro ⚠ e con esclusione degli atti sottoposti a controllo preventivo di legittimità ⚠.
-3. **Legittimazione soggettiva**: facoltà di richiesta attribuita alle amministrazioni centrali, con competenza della Sezione centrale per il controllo di legittimità sugli atti ⚠. Verificare se e come resti distinta la corsia ex art. 7, comma 8, l. 131/2003 per gli enti territoriali.
-4. **Termine**: termine perentorio di trenta giorni per il rilascio del parere ⚠. Verificare la decorrenza, le cause di sospensione e la sorte della richiesta inammissibile.
-5. **Silenzio**: conseguenze dell'inutile decorso del termine — se si formi un assenso o comunque un effetto protettivo per l'amministrazione ⚠. È il punto più discusso: verificarlo *letteralmente*.
-6. **Effetto sulla responsabilità**: per gli atti adottati in conformità ai pareri resi è esclusa la gravità della colpa ⚠. Verificare se si tratti di esclusione della colpa grave, di presunzione, di causa di esclusione della punibilità o di limite probatorio; verificare se l'effetto copra anche l'ipotesi di parere non reso nel termine.
-7. **Nomofilachia**: funzione di orientamento uniforme attribuita alle Sezioni riunite ⚠. Verificare se in sede di controllo o in composizione speciale, e con quale grado di vincolatività verso le sezioni.
+1. **Oggetto**: la Sezione centrale per il controllo di legittimità sugli atti e le sezioni regionali rendono
+   «pareri in materia di contabilità pubblica, anche su questioni giuridiche applicabili a fattispecie concrete
+   connesse all'attuazione» di PNRR e PNC, «di valore complessivo non inferiore a un milione di euro, purché
+   estranee ad atti soggetti al controllo preventivo di legittimità ovvero a fatti per i quali la competente
+   procura contabile abbia notificato un invito a dedurre».
+2. **La questione dell'«anche»**: se le tre condizioni si riferiscano a tutti i pareri o soltanto al segmento
+   introdotto dall'avverbio. L'argomento decisivo è di concordanza: «estranee», femminile plurale, non può
+   riferirsi ai «pareri». Lettura additiva accolta dal diritto vivente.
+3. **Termine**: trenta giorni, perentorio.
+4. **Onere di prospettazione**: l'amministrazione deve esporre la propria soluzione interpretativa; è condizione
+   perché il silenzio operi in senso favorevole.
+5. **Effetto sulla responsabilità**: «è esclusa, in ogni caso, la gravità della colpa per gli atti adottati in
+   conformità ai pareri resi». Manca la clausola «nel rispetto dei presupposti generali per il rilascio», presente
+   invece negli artt. 69, comma 2, e 95, comma 4, del codice di giustizia contabile e nell'art. 46 della
+   l. 238/2021. L'omissione è il punto su cui si gioca la tenuta dell'istituto.
+6. **Silenzio**: l'inutile decorso del termine produce effetto scudante. Le Sezioni riunite in sede di controllo
+   hanno escluso che a un organo magistratuale si applichino consumazione del potere e silenzio-assenso,
+   scindendo l'effetto esimente dalla qualificazione del silenzio come modo di esercizio della funzione.
+7. **Nomofilachia**: concentrata nelle Sezioni riunite, con il problema del raccordo con la Sezione delle
+   autonomie e con l'incongruenza fra termine di trenta giorni e tempi della rimessione.
 
-### 2.2 Art. 2-bis — delega al Governo
+### 2.2 Art. 3 — delega al Governo
 
-- Delega ad adottare uno o più decreti legislativi per la **riorganizzazione e il riordino delle funzioni della Corte dei conti**, entro dodici mesi dalla pubblicazione in Gazzetta Ufficiale ⚠ (dunque entro il 7 gennaio 2027, da verificare il computo).
-- **Da estrarre dal testo e trascrivere integralmente**: i principi e criteri direttivi. Sono il materiale su cui si fondano le proposte de iure condendo: una proposta che eccede i criteri di delega è, sul piano tecnico, inutilizzabile.
-- Verificare: presenza di delega per un testo unico in materia di contabilità pubblica; pareri obbligatori delle Commissioni parlamentari; termine per i decreti correttivi; clausola di invarianza finanziaria.
+Attenzione: nel disegno di legge la delega stava in un art. 2-bis; **nella legge approvata è l'art. 3**. Citare
+l'art. 3.
+
+- Termine: dodici mesi; decreti correttivi previsti dal comma 5; abrogazione espressa delle disposizioni
+  riordinate imposta dal comma 4.
+- Lettere rilevanti per la funzione consultiva: **lett. o** (procedimenti di controllo, consultivi e referenti,
+  contraddittorio, costituzione e composizione dei collegi, pubblicità e riservatezza degli atti); **lett. q**
+  (razionalizzazione, codici o testi unici sui procedimenti non giurisdizionali); **lett. a, c, f** (sezioni
+  abilitate a svolgere unitariamente funzioni consultive, di controllo, referenti e giurisdizionali; collegi
+  formati con provvedimento del Presidente; applicazione dei magistrati a più sedi); **lett. i, n. 1**
+  (rafforzamento delle risorse di funzione consultiva e di controllo); **lett. r** (solo rimborso spese legali).
+- **Nessun criterio direttivo autorizza a incidere sull'effetto esimente o sul meccanismo silenziale**: gli
+  interventi su quei profili richiedono legge ordinaria o un criterio integrativo. È la distinzione su cui si
+  regge ogni proposta de iure condendo.
+- **Contraddizione finanziaria**: il comma 8 elenca le lettere i cui decreti possono determinare nuovi oneri
+  (a, c, d, g, i, p, r), coperti dall'autorizzazione di spesa del comma 9; la lett. o non vi figura, pur essendo
+  quella su cui poggiano gli interventi procedimentali.
 
 ### 2.3 Altre disposizioni da inquadrare
 

@@ -40,3 +40,29 @@ stile seguente, uniforme in tutta la tesi.
 Mantenere in `output/registro-fonti.md` una tabella: `id | tipo | citazione completa | file di provenienza | dove è usata in tesi`.
 L'`id` è quello richiamato nelle schede di lettura. In revisione, ogni nota della tesi deve corrispondere a una riga
 del registro; le righe non usate segnalano materiale letto e non sfruttato, da valutare.
+
+## Il sistema di note adottato in questa tesi
+
+Regole ricavate dall'apparato esistente. Vanno seguite senza eccezioni, perché la coerenza dell'apparato è ciò
+che il relatore verifica per primo.
+
+1. **Prima citazione completa, poi `op. cit.`** con pagina: `BARBAGALLO, op. cit., p. 232`. Quando di un autore si
+   citano due opere, `op. cit.` è vietato e si usa il titolo breve: `TESSARO, Brevi note ricostruttive, cit., § 6`.
+2. **Cognome in maiuscoletto**; iniziale del nome solo alla prima occorrenza.
+3. **Mediazione sempre dichiarata.** Se la fonte primaria è conosciuta attraverso un contributo dottrinale o
+   un'altra pronuncia che la riporta: `Corte conti, Sez. autonomie, delib. n. 11/2020/QMIG, riportata in BOTTINO,
+   op. cit., p. 78`. Mai presentare come diretta una citazione di seconda mano.
+4. **`Ivi`** = stessa opera, luogo diverso. **`Ibidem`** = stessa opera, stesso luogo. Nessuna catena di più di due
+   `Ibidem`: oltre, si ripete il riferimento con il punto.
+5. **Pronunce individuate per punto**, non per pagina: `punto 2.1.5`, `punto 2 del diritto`, `punto 6.6 del
+   considerato in diritto`.
+6. **Più fonti nella stessa nota**: punto e virgola, nell'ordine delle proposizioni cui si riferiscono; quando
+   l'ordine conta, aprire con `Rispettivamente:`.
+7. **Ogni citazione testuale fra caporali ha la propria nota.** Se in riscrittura la citazione diventa parafrasi,
+   la nota resta ma va verificato che sostenga ancora ciò che si afferma: è l'errore più frequente e il più
+   difficile da individuare dopo.
+8. **Mai marcatori di nota digitati a mano** (¹ ² ³ o numeri in apice): solo note Word, che si rinumerano da sé.
+9. **Fonti primarie portanti**: le pronunce su cui riposa la dimostrazione vanno lette sull'originale e citate
+   senza mediazione, anche quando la dottrina le riporta.
+10. **Controllo finale**: nessuna voce di bibliografia priva di richiamo in nota; nessuna nota priva di voce in
+    bibliografia; nessun provvedimento privo di numero o di data.

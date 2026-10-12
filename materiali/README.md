@@ -14,3 +14,11 @@ Suggerimento di ordinamento, utile ma non obbligatorio:
 
 Se un PDF è la scansione di un cartaceo senza testo selezionabile, segnalalo: va sottoposto a OCR prima della
 lettura, e in nessun caso il contenuto va ricostruito per congettura.
+
+## Avvertenza — questo repository è pubblico
+
+Al 12 ottobre 2026 `drastico14/firetv` risulta pubblico. Non vanno committati in questa cartella né i file della
+tesi né i contributi dottrinali raccolti: la pubblicazione di un elaborato inedito lo rende indicizzabile e
+riutilizzabile da terzi, e i PDF di rivista sono coperti da diritto d'autore. Finché il repository resta pubblico,
+`materiali/` e `output/` vanno tenuti fuori dal versionamento (v. `.gitignore`); i file si caricano nella
+conversazione, non nel repository.

@@ -83,3 +83,20 @@ Sul versante *de iure condendo*, il perno è che si tratta di **legge delega**: 
 ## 5. Avvertenza sulla conoscenza pregressa
 
 Il contenuto della legge n. 1/2026 e i commenti dottrinali **non vanno ricostruiti a memoria**. Vanno letti nel materiale dell'utente o verificati su fonte ufficiale (Gazzetta Ufficiale, Normattiva, sito istituzionale della Corte dei conti). Le indicazioni contenute in `references/quadro-normativo.md` sono una *lista di controllo*, non una fonte citabile.
+
+## 6. Stato del lavoro (aggiornato al 12 ottobre 2026)
+
+La tesi è già stesa in sei capitoli più introduzione e conclusioni, con apparato di 68 note e bibliografia.
+Il file di lavoro è quello che contiene la riscrittura in registro accademico dell'apertura (introduzione,
+cap. I, cap. II §§ 1-2); dal cap. II § 3 in avanti il testo è nel registro originale, più asciutto.
+
+Vincoli operativi acquisiti:
+
+- **I paragrafi riscritti non portano note.** Prima di cancellare un paragrafo originale sostituito, trasferire i
+  richiami di nota nel paragrafo nuovo: altrimenti si perdono le note 1-21.
+- **Il repository è pubblico.** Né la tesi né le fonti raccolte vanno committate (v. `.gitignore`). I file si
+  scambiano nella conversazione.
+- La delega è l'**art. 3** della l. 1/2026, non l'art. 2-bis del disegno di legge.
+- Lo schema approvato dal relatore prevedeva tre momenti della posizione della Corte: parere n. 4/2025/CONS in
+  sede di iter, Relazione del Presidente del 24 febbraio 2026 alla vigilia, delib. n. 14/SSRRCO/QMIG/2026 in
+  prima applicazione. Il secondo momento manca ancora nel testo.
