@@ -100,3 +100,10 @@ Vincoli operativi acquisiti:
 - Lo schema approvato dal relatore prevedeva tre momenti della posizione della Corte: parere n. 4/2025/CONS in
   sede di iter, Relazione del Presidente del 24 febbraio 2026 alla vigilia, delib. n. 14/SSRRCO/QMIG/2026 in
   prima applicazione. Il secondo momento manca ancora nel testo.
+
+## 7. Registro della comunicazione
+
+Il registro accademico-giuridico prescritto in `CLAUDE.md` vale per ogni esito del lavoro, compresi
+i referti di revisione e le risposte in conversazione, non soltanto per il testo della tesi.
+La violazione di quelle prescrizioni va trattata come un difetto del prodotto, non come una
+questione di stile.
